@@ -233,10 +233,10 @@ display: inline-block;
 
 /* reponsive part */
 @media only screen and (max-width: 768px) {
-    /* #main{
+    #main{
         display: none;
         
-    } */
+    }
     #aisde{
         width: 65vw;
     }
@@ -260,10 +260,8 @@ display: none;
     }
 
     .navbar{
-/* width: 30vw; */
-margin-right: 0%;
-width: 0vw;
-    }
+display: none;
+    } 
 
     .media{
         color: #fff;
