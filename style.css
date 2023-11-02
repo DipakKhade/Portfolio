@@ -219,3 +219,41 @@ display: inline-block;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* reponsive part */
+@media (max-width: 768px) {
+    #main{
+        display: none;
+        
+    }
+    #aisde{
+        width: 80vw;
+    }
+    .mid{
+        width: 80vw;
+    }
+    .up1 {
+        display: none;
+    }
+    .up2 {
+        display: none;
+    }
+    .up3 {
+        display: none;
+    }
+
+  }
+  
