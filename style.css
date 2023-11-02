@@ -234,7 +234,7 @@ display: inline-block;
 
 
 /* reponsive part */
-@media (max-width: 768px) {
+@media (max-width: 430px) {
     #main{
         display: none;
         
