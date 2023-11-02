@@ -43,7 +43,7 @@ box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
     position:fixed;
-    width: 80%;
+    width: 80vw;
 
 }
 
@@ -233,15 +233,15 @@ display: inline-block;
 
 /* reponsive part */
 @media only screen and (max-width: 768px) {
-    #main{
+    /* #main{
         display: none;
         
-    }
+    } */
     #aisde{
-        width: 80vw;
+        width: 65vw;
     }
     .mid{
-        width: 80vw;
+        width: 65vw;
     }
     .up1 {
         display: none;
@@ -253,5 +253,20 @@ display: inline-block;
         display: none;
     }
 
+    .main_without_contact{
+display: none;
+/* width: 0vw; */
+
+    }
+
+    .navbar{
+/* width: 30vw; */
+margin-right: 0%;
+width: 0vw;
+    }
+
+    .media{
+        color: #fff;
+    }
   }
   
