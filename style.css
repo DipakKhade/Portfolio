@@ -11,8 +11,6 @@ font-family: 'Sometype Mono', monospace;
 box-sizing: border-box;
 }
 
-body{
-}
 
 #aside{
     /* border: 2px solid whitesmoke; */
@@ -234,7 +232,7 @@ display: inline-block;
 
 
 /* reponsive part */
-@media (max-width: 430px) {
+@media only screen and (max-width: 768px) {
     #main{
         display: none;
         
